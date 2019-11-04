@@ -1,0 +1,119 @@
+
+
+a{
+	text-decoration: none;
+	color:#ffd5d5;
+	background-color: #ddb6c6;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+a:hover {
+	color: black
+}
+
+h1{
+	font-family: 'Amatic SC', cursive;
+	color: #e497cd;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+h2{ color: #e497cd;
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px}
+
+p{
+	color: #45454d;
+	text-justify: center;
+	font-family:'Josefin Sans', sans-serif;
+}
+
+.body-text{ 
+text-align: center;
+background-color: rgb(255,241,233)
+ }
+
+.img-circle{
+	border-radius: 50%;
+}
+
+#introduction{ 
+padding-bottom: 25px;
+ }
+
+ #introduction p{
+ 	margin-bottom: 25px;
+ }
+
+.container{ 
+	width: 600px;
+	margin: 0 auto;
+}
+
+.card-pink{
+	background:#fff1e9; 
+	text-align: center;
+	border-radius:2%;
+	margin: 20px;
+	padding:10px;
+	box-shadow:0px 10px 30px rgba(0,0,0,0.1);
+}
+
+.btn-colour { 
+	background: #e497cd;
+	color: white;
+	padding: 10px 20px;
+	border-radius:2%;
+}
+
+.btn-colour:hover { 
+	color: white;
+	background-color: #fc7fb2;
+ }
+
+ .list-inline { 
+
+ 	padding-left: 0px;
+ 	list-style: none;
+
+ 	 }
+
+ .list-inline li {
+ 	display: inline;
+ 	padding: 10px;
+
+ }	 
+
+ .list-inline i {
+
+ font-size: 30px;
+ color: #e497cd;
+ background-color: #fff1e9;
+
+ }
+
+ .list-inline i:hover { 
+ 	color: #fc7fb2
+  }
+
+
+@media (max-width: 960) {
+	.container{ 
+	width: 700px }
+}
+
+@media (max-width: 720) {
+	.container{ 
+	width: 500px }
+}
+
+@media (max-width: 540) {
+	.container{ 
+	width: 300px }
+}
+	
+
+
+
+
+
